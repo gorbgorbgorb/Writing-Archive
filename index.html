@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriela — The Midnight Archive</title>
+  <meta name="description" content="Poems, stories, fragments, and other creative works by Gabriela.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">GABRIELA<span>✦</span></a>
+    <nav>
+      <a href="#writings">Writings</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="menu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="moon" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">THE MIDNIGHT ARCHIVE</p>
+        <h1>words for<br><em>the hours</em><br>when we can't sleep.</h1>
+        <p class="intro">Poems, stories, fragments, and other things I couldn't leave unwritten.</p>
+        <a class="button" href="#writings">Enter the archive <span>↓</span></a>
+      </div>
+      <p class="vertical-note">POETRY · FICTION · FRAGMENTS</p>
+    </section>
+
+    <section class="featured">
+      <div class="section-label">01 / FEATURED</div>
+      <article class="featured-card">
+        <div class="card-meta">POEM · 2026</div>
+        <h2>The House<br>That Remembered Me</h2>
+        <p class="excerpt">There are houses that keep their ghosts in the walls, and houses that become ghosts themselves...</p>
+        <a href="#poem" class="text-link">Read the piece <span>↗</span></a>
+        <div class="ornament">✦</div>
+      </article>
+    </section>
+
+    <section class="writings" id="writings">
+      <div class="section-heading">
+        <div class="section-label">02 / WRITINGS</div>
+        <h2>Recent <em>work</em></h2>
+      </div>
+
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="poetry">Poetry</button>
+        <button class="filter" data-filter="fiction">Fiction</button>
+        <button class="filter" data-filter="essays">Essays</button>
+      </div>
+
+      <div class="writing-grid">
+        <article class="writing-item" data-type="poetry">
+          <span>01</span><div><p>POETRY · 2026</p><h3>The Shape of Leaving</h3><small>On the things we carry after goodbye.</small></div><b>↗</b>
+        </article>
+        <article class="writing-item" data-type="fiction">
+          <span>02</span><div><p>SHORT STORY · 2026</p><h3>At the Edge of the Woods</h3><small>A girl finds a house that shouldn't be there.</small></div><b>↗</b>
+        </article>
+        <article class="writing-item" data-type="poetry">
+          <span>03</span><div><p>POETRY · 2026</p><h3>Girls Made of Rain</h3><small>For everyone who has ever felt too soft for the world.</small></div><b>↗</b>
+        </article>
+        <article class="writing-item" data-type="essays">
+          <span>04</span><div><p>ESSAY · 2026</p><h3>On Becoming</h3><small>A few thoughts on growing into yourself.</small></div><b>↗</b>
+        </article>
+      </div>
+    </section>
+
+    <section class="poem" id="poem">
+      <div class="poem-side">A POEM<br>FOR THE<br>RESTLESS</div>
+      <div class="poem-content">
+        <p class="section-label">THE HOUSE THAT REMEMBERED ME</p>
+        <p class="poem-date">September 2026</p>
+        <div class="poem-text">
+          <p>There are houses<br>that remember your footsteps<br>long after you have gone.</p>
+          <p>They keep the shape of you<br>in the dust beside the door,<br>your laughter in the kitchen,<br>your shadow on the stairs.</p>
+          <p>And sometimes, late at night,<br>when the moon has gone pale<br>against the window,<br>you can almost hear them<br>calling you home.</p>
+        </div>
+        <p class="signature">— G.</p>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-heading">
+        <div class="section-label">03 / OTHER THINGS</div>
+        <h2>Creative <em>projects</em></h2>
+      </div>
+      <div class="project-grid">
+        <div class="project"><div class="project-number">I</div><h3>Visual Diaries</h3><p>Photographs, collages, and little pieces of visual storytelling.</p></div>
+        <div class="project"><div class="project-number">II</div><h3>Fragments</h3><p>Lines, ideas, unfinished stories, and things still becoming.</p></div>
+        <div class="project"><div class="project-number">III</div><h3>Sound & Voice</h3><p>Experiments with singing, spoken word, and recorded pieces.</p></div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-label">04 / ABOUT</div>
+      <div>
+        <h2>Hello,<br><em>I'm Gabriela.</em></h2>
+        <p>I write because some thoughts become too loud when they're left unwritten. This is a home for the poems, stories, ideas, and strange little projects that find their way out of my head and into the world.</p>
+        <p>Stay awhile. Read something. Come back when it's dark.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>THE MIDNIGHT ARCHIVE</div>
+    <div>© 2026 GABRIELA</div>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
